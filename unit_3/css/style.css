@@ -1,11 +1,15 @@
 body {
 	text-align: center;
 	background: white;
-	font-style: Helvetica;
+	font-style: sans-serif;
+}
+
+menu {
+	font-size: 24px
 }
 
 h1 {
-
+	font-size: 35px
 }
 
 a {
@@ -13,7 +17,7 @@ a {
 }
 
 #shopping_bag {
-	text-align: right;
+	text-align:right;
 }
 
 footer {
