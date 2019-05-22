@@ -4,12 +4,8 @@ body {
 	font-style: sans-serif;
 }
 
-menu {
-	font-size: 24px
-}
-
 h1 {
-	font-size: 35px
+	font-size: 55px
 }
 
 a {
@@ -20,6 +16,16 @@ a {
 	text-align:right;
 }
 
+
+menu {
+	font-size: 40px
+}
+
 footer {
 	text-align: left;
+	text-decoration: 
+}
+
+#slogan {
+	font-style: italic;
 }
