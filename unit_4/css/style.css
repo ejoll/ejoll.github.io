@@ -60,7 +60,7 @@ footer {
 
 .layout {
 	text-align: center;
-	padding-bottom: 30px
+	padding-bottom: 20px
 }
 
 .menu_layout {
@@ -69,6 +69,8 @@ footer {
 }
 
 .hero {
+	width:60%;
+	margin: 0 auto;
 	position: relative;
 }
 
