@@ -1,20 +1,21 @@
 body {
-	text-align: center;
 	color: #70BCFF;
 	background: white;
 	font-style: "Avant Garde";
 }
 
 h1 {
+	text-align: center;
 	font-size: 55px
 }
 
 #shop {
-	text-align:right;
+	text-align: right;
 }
 
 menu {
-	font-size: 40px
+	text-align: center;
+	font-size: 30px
 }
 
 footer {
@@ -27,5 +28,6 @@ footer {
 }
 
 .layout {
+	text-align: center;
 	padding-bottom: 30px
 }
