@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	text-align: center;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+img {
+	display:block;
+	width:100%;
+}
+
+.clear:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.header_shop {
+	position: absolute;
+	right: 30px;
+	top:50%;
+	transform: translateY(-50%);
+	font-size: 18px;
+	}
+
+header {
+	position: relative;
+    padding: 20px;
+}
+
+nav {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+    padding: 1em;
+}
+
+nav a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	color:#191970;
+}
+
+article {
+    padding: 20px;
+}
+
+aside {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+}
+
+
+.layout {
+	text-align: center;
+	padding-bottom: 20px
+}
+
+.menu_layout {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.hero {
+	width:60%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.hero_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.button {
+	background-color: transparent;
+	border: 2px solid black;
+	padding: 8px 16px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph {
+	font-family: 'Cardo', serif;
+	max-width: 900px;
+	margin: 0 auto;
+	width:100%;
+	line-height: 1.55em;
+	font-size: 20px
+}
+
+.favorites {
+	width:33.33%;	
+	float:left;
+}
+
+.article {
+	width:50%;
+}
+
+.side {
+	width:50%;
+}
+
+.flex {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav_footer {
+	width:25%;
+	float:left;
+	text-align: left;
+	margin: 0, auto;
+	padding: 10px 20px;
+	border-top: 5px solid black;
+	display: block;
+}
+
+.footer_header {
+	padding-bottom: 8px;
+	text-transform: uppercase;
+}
+
+
