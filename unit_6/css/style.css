@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Montserrat:400,700&display=swap');
 
 *{
 	margin:0;
@@ -123,6 +123,15 @@ section {
 	font-size: 20px
 }
 
+.looks:before {
+	height: 2px;
+	width: 100px;
+	margin: 0px auto 15px auto;
+	content:"";
+	display:block;
+	background: black;
+}
+
 .favorites {
 	width:33.33%;	
 	float:left;
@@ -148,13 +157,18 @@ section {
 	text-align: left;
 	margin: 0, auto;
 	padding: 10px 20px;
-	border-top: 5px solid black;
+	border-top: 2px solid black;
 	display: block;
 }
 
 .footer_header {
 	padding-bottom: 8px;
 	text-transform: uppercase;
+	font-weight:700;
+}
+
+.footer_body {
+	padding-bottom: 8px;
 }
 
 
