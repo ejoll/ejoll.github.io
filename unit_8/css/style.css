@@ -69,14 +69,6 @@ a:hover {
 	color:#191970;
 }
 
-article {
-    padding: 1em;
-}
-
-aside {
-    padding: 1em;
-}
-
 section {
     padding: 1em;
 }
@@ -143,10 +135,7 @@ section {
 
 .article {
 	width:50%;
-}
-
-.side {
-	width:50%;
+	padding: 1em;
 }
 
 .flex {
@@ -183,9 +172,22 @@ section {
  .favorites {
   	float: none;
   	display: block;
-  	text-align: center;
-  	width: 50%;
+  	width: 100%;
+  	max-width: 300px;
+  	margin: auto;
+  	padding: 0 2em;
  }
+
+.flex {
+	flex-direction: column;
+	flex: initial;
+}
+
+.article {
+	width: 100%;
+	max-width: 500px;
+}
+
 }
 
 
